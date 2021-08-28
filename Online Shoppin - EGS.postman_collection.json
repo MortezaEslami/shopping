@@ -54,7 +54,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/categories/2",
+			"url": "http://localhost:8080/shopping/api/v1/categories/2",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -95,7 +95,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/users",
+			"url": "http://localhost:8080/shopping/api/v1/users",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -136,7 +136,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/user-product-rates/1",
+			"url": "http://localhost:8080/shopping/api/v1/user-product-rates/1",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -177,7 +177,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/categories/1",
+			"url": "http://localhost:8080/shopping/api/v1/categories/1",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -218,7 +218,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/users/1",
+			"url": "http://localhost:8080/shopping/api/v1/users/1",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -259,7 +259,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/products/1",
+			"url": "http://localhost:8080/shopping/api/v1/products/1",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -300,7 +300,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/categories",
+			"url": "http://localhost:8080/shopping/api/v1/categories",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -341,7 +341,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/products/1",
+			"url": "http://localhost:8080/shopping/api/v1/products/1",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -382,7 +382,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/categories",
+			"url": "http://localhost:8080/shopping/api/v1/categories",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -423,7 +423,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/user-product-rates",
+			"url": "http://localhost:8080/shopping/api/v1/user-product-rates",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -464,7 +464,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/user-product-rates/1",
+			"url": "http://localhost:8080/shopping/api/v1/user-product-rates/1",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -505,7 +505,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/user-product-rates",
+			"url": "http://localhost:8080/shopping/api/v1/user-product-rates",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -546,7 +546,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/user-product-rates/1",
+			"url": "http://localhost:8080/shopping/api/v1/user-product-rates/1",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -587,7 +587,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/products",
+			"url": "http://localhost:8080/shopping/api/v1/products",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -616,7 +616,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/users",
+			"url": "http://localhost:8080/shopping/api/v1/users",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -657,7 +657,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/categories/1",
+			"url": "http://localhost:8080/shopping/api/v1/categories/1",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -698,7 +698,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/products/filter",
+			"url": "http://localhost:8080/shopping/api/v1/products/filter",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -739,7 +739,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/products/1",
+			"url": "http://localhost:8080/shopping/api/v1/products/1",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -780,7 +780,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/users/block/2",
+			"url": "http://localhost:8080/shopping/api/v1/users/block/2",
 			"queryParams": [],
 			"pathVariables": {},
 			"pathVariableData": [],
@@ -823,7 +823,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/products",
+			"url": "http://localhost:8080/shopping/api/v1/products",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -852,7 +852,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/api/v1/users/login",
+			"url": "http://localhost:8080/shopping/api/v1/users/login",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
