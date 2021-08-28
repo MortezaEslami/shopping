@@ -30,6 +30,9 @@ application:
 logging:
   level:
     com.egs.shopping: debug
+server:
+  servlet:
+    context-path: /shopping
 
 ---
 spring:
