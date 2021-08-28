@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <changeSet author="Morteza" id="create_table_product">
+        <createTable tableName="tbl_product">
+            <column name="ID" type="BIGINT" autoIncrement="true">
+                <constraints primaryKey="true" primaryKeyName="tbl_product_id_pk"/>
+            </column>
+            <column name="C_NAME" type="VARCHAR2(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="C_CODE" type="VARCHAR2(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="N_PRICE" type="NUMERIC">
+                <constraints nullable="false"/>
+            </column>
+            <column name="N_RATE" type="NUMERIC"/>
+            <column name="N_CATEGORY_ID" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="C_COMMENT" type="VARCHAR2(4000)"/>
+            <column name="D_LAST_MODIFIED_DATE" type="TIMESTAMP"/>
+            <column name="D_CREATED_DATE" type="TIMESTAMP"/>
+            <column name="C_LAST_MODIFIED_BY" type="VARCHAR2(100)"/>
+            <column name="C_CREATED_BY" type="VARCHAR2(100)"/>
+            <column name="N_VERSION" type="INT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Morteza" id="add_ForeignKey_product_category">
+        <addForeignKeyConstraint baseColumnNames="N_CATEGORY_ID" baseTableName="tbl_product"
+                                 constraintName="FK_PRODUCT_CATEGORY_ID" deferrable="false"
+                                 initiallyDeferred="false"
+                                 referencedColumnNames="ID" referencedTableName="tbl_category" validate="true"/>
+    </changeSet>
+
+    <changeSet author="Morteza" id="create_table_product_aud">
+        <createTable tableName="tbl_product_aud">
+            <column name="ID" type="BIGINT"/>
+            <column name="C_NAME" type="VARCHAR2(100)"/>
+            <column name="C_CODE" type="VARCHAR2(100)"/>
+            <column name="N_PRICE" type="NUMERIC"/>
+            <column name="N_CATEGORY_ID" type="BIGINT"/>
+            <column name="C_COMMENT" type="VARCHAR2(4000)"/>
+            <column name="REV" type="BIGINT"/>
+            <column name="REVTYPE" type="BIT(1)"/>
+        </createTable>
+    </changeSet>
+
+
+</databaseChangeLog>
+

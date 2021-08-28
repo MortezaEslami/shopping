@@ -1,0 +1,60 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <changeSet author="Morteza" id="insert-data-01">
+        <sql splitStatements="false" stripComments="false">
+            <![CDATA[
+                    insert into tbl_role (id,name) values (1,'ROLE_ADMIN');
+               ]]>
+        </sql>
+        <sql splitStatements="false" stripComments="false">
+            <![CDATA[
+                 insert into tbl_role (id,name) values (2,'ROLE_USER');
+               ]]>
+        </sql>
+        <sql splitStatements="false" stripComments="false">
+            <![CDATA[
+                  insert into tbl_user (id,n_activated,c_email,c_first_name,c_last_name,c_user_name,c_password) values(1,true,'admin@test.com','admin','admin','admin','$2a$10$AVq/d4GAL8VX1oBBycjOHuYLTJ2K.4GpfWRxxaD3xhw5VzX6Ncotm');
+               ]]>
+        </sql>
+        <sql splitStatements="false" stripComments="false">
+            <![CDATA[
+                 insert into tbl_user (id,n_activated,c_email,c_first_name,c_last_name,c_user_name,c_password) values(2,true,'user@test.com','user','user','user','$2a$10$rl14t.GnwMxD1UXFvf3SseePYAuJn93KTcTEc1LZX8FQdzHLY67xa');
+               ]]>
+        </sql>
+        <sql splitStatements="false" stripComments="false">
+            <![CDATA[
+                  insert into tbl_user_role(id,N_USER_ID, N_ROLE_ID) values (1,1,1);
+               ]]>
+        </sql>
+        <sql splitStatements="false" stripComments="false">
+            <![CDATA[
+                 insert into tbl_user_role(id, N_USER_ID, N_ROLE_ID) values (2,1,2);
+               ]]>
+        </sql>
+        <sql splitStatements="false" stripComments="false">
+            <![CDATA[
+                 insert into tbl_user_role(id, N_USER_ID, N_ROLE_ID) values (3,2,2);
+               ]]>
+        </sql>
+
+    </changeSet>
+    <changeSet author="Morteza" id="insert-data-02">
+        <sql splitStatements="false" stripComments="false">
+            <![CDATA[
+                    insert into tbl_category (id,c_name,c_code, c_comment, n_parent_id, n_version , D_CREATED_DATE, C_CREATED_BY) values (1,'cellphone','cp',' cellphone category', null, 0,  sysdate(),'admin');
+
+               ]]>
+        </sql>
+    </changeSet>
+    <changeSet author="Morteza" id="insert-data-03">
+        <sql splitStatements="false" stripComments="false">
+            <![CDATA[
+                    insert into tbl_product (id,c_name,c_code, c_comment, n_price,  n_category_id, n_version, D_CREATED_DATE, C_CREATED_BY) values (1,'cellphone','cp',' cellphone category', 500,1, 0, sysdate(),'admin');
+
+               ]]>
+        </sql>
+    </changeSet>
+</databaseChangeLog>
+

@@ -1,0 +1,36 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <changeSet author="Morteza" id="create_table_user_product_rate">
+        <createTable tableName="tbl_user_product_rate">
+            <column name="ID" type="BIGINT"  autoIncrement="true">
+                <constraints primaryKey="true" primaryKeyName="tbl_user_product_rate_id_pk"/>
+            </column>
+            <column name="C_COMMENT" type="VARCHAR2(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="N_RATE" type="INT"/>
+            <column name="N_USER_ID" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="N_PRODUCT_ID" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Morteza" id="add_ForeignKey_user_product_rate_user">
+        <addForeignKeyConstraint baseColumnNames="N_USER_ID" baseTableName="tbl_user_product_rate"
+                                 constraintName="FK_usr_prd_rt_user_ID" deferrable="false"
+                                 initiallyDeferred="false"
+                                 referencedColumnNames="ID" referencedTableName="tbl_user" validate="true"/>
+    </changeSet>
+    <changeSet author="Morteza" id="add_ForeignKey_user_product_rate_product">
+        <addForeignKeyConstraint baseColumnNames="N_PRODUCT_ID" baseTableName="tbl_user_product_rate"
+                                 constraintName="FK_usr_prd_rt_product_ID" deferrable="false"
+                                 initiallyDeferred="false"
+                                 referencedColumnNames="ID" referencedTableName="tbl_product" validate="true"/>
+    </changeSet>
+
+</databaseChangeLog>
+

@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <changeSet author="Morteza" id="create_table_category">
+        <createTable tableName="tbl_category">
+            <column name="ID" type="BIGINT" autoIncrement="true">
+                <constraints primaryKey="true" primaryKeyName="tbl_category_id_pk"/>
+            </column>
+            <column name="C_NAME" type="VARCHAR2(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="C_CODE" type="VARCHAR2(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="N_PARENT_ID" type="BIGINT"/>
+            <column name="C_COMMENT" type="VARCHAR2(4000)"/>
+            <column name="D_LAST_MODIFIED_DATE" type="TIMESTAMP"/>
+            <column name="D_CREATED_DATE" type="TIMESTAMP"/>
+            <column name="C_LAST_MODIFIED_BY" type="VARCHAR2(100)"/>
+            <column name="C_CREATED_BY" type="VARCHAR2(100)"/>
+            <column name="N_VERSION" type="INT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Morteza" id="add_ForeignKey_category_parent">
+        <addForeignKeyConstraint baseColumnNames="N_PARENT_ID" baseTableName="tbl_category"
+                                 constraintName="FK_CATEGORY_PARENT_ID" deferrable="false"
+                                 initiallyDeferred="false"
+                                 referencedColumnNames="ID" referencedTableName="tbl_category" validate="true"/>
+    </changeSet>
+
+
+    <changeSet author="Morteza" id="create_table_category_aud">
+        <createTable tableName="tbl_category_aud">
+            <column name="ID" type="BIGINT"/>
+            <column name="C_NAME" type="VARCHAR2(100)"/>
+            <column name="C_CODE" type="VARCHAR2(100)"/>
+            <column name="N_PARENT_ID" type="BIGINT"/>
+            <column name="C_COMMENT" type="VARCHAR2(4000)"/>
+            <column name="REV" type="BIGINT"/>
+            <column name="REVTYPE" type="BIT(1)"/>
+        </createTable>
+    </changeSet>
+
+</databaseChangeLog>
+

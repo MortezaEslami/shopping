@@ -1,0 +1,60 @@
+spring:
+  application:
+    name: shopping
+  profiles:
+    active: Development
+  banner:
+    location: banner.txt
+  messages:
+    basename: i18n/messages
+  liquibase:
+    enabled: true
+    database-change-log-table: Z_LIQ_CHANGELOG
+    database-change-log-lock-table: Z_LIQ_CHANGELOG_LOCK
+    change-log: classpath:db/changelog/liquibase-master.xml
+  jpa:
+    hibernate:
+      ddl-auto: none
+application:
+  cors:
+    allowed-origins: '*'
+    allowed-methods: '*'
+    allowed-headers: '*'
+    allow-credentials: false
+    max-age: 3600
+  security:
+    authentication:
+      jwt:
+        base64-secret: /fEBNYlz9eoKOUviW771qx8/vJ7TKZyPhSKZdjJkjr7a1b3sJz6HJIic99HHW3RTLf/9NetSgfPJO+CWjxZ5Ew==
+        token-validity-in-seconds: 43200
+logging:
+  level:
+    com.egs.shopping: debug
+
+---
+spring:
+  profiles: Development
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3306/shopping?createDatabaseIfNotExist=true
+    username: root
+    password: password
+
+---
+spring:
+  profiles: test
+  datasource:
+    url: jdbc:h2:mem:amsdb
+    username: test
+    password: test
+  liquibase:
+    user: test
+    password: test
+  h2:
+    console:
+      enabled: true
+
+
+
+

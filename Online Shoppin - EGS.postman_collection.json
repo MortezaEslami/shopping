@@ -1,0 +1,875 @@
+{
+	"id": "efef88c2-45c5-d91b-c536-b5019049d616",
+	"name": "Online Shoppin - EGS",
+	"description": "",
+	"order": [
+		"fbfe7cbb-16aa-6cc2-a46f-c7f533945b5d",
+		"84506efb-1ada-c90f-6404-93fa2f5b14ed",
+		"b7e8705f-fde2-eb30-dbda-8b449284b464",
+		"3ab5de04-2db9-e0a2-4905-7eef0396d4a7",
+		"2683fddf-74c5-b7a0-f712-80999847a212",
+		"39f82222-9c12-17f3-180f-e890f22b5701",
+		"45ba7fad-bbf8-3663-b5da-6014eeeb1320",
+		"5aa6ea7a-6960-c8fe-c68e-f7eb26aa0ee2",
+		"13655146-2a6b-4637-5e5b-62e152570b1e",
+		"87505602-f202-d607-2783-6bc26e3e7a17",
+		"43aae8c8-3b1d-5f0b-56e7-9af06d320a35",
+		"7f932d50-56e5-b29b-cebf-8d1ad67de283",
+		"c2988284-7acc-fd92-e448-3b61a6cda2d7",
+		"89a6bd75-dd96-c2b6-0a3a-39c5bbc9e034",
+		"a8c63461-c765-acd6-6c53-4871777cca0b",
+		"4fc605be-5494-88aa-a306-3e5aa34b35c1",
+		"693088f2-118c-e4cc-f421-3d3428af7e59",
+		"689b3dba-0719-0f36-d71d-c33502b798e3",
+		"78b6765b-8289-c501-82a2-63172e2f0d39",
+		"3154f929-c7bc-41ca-4435-70d391ed002e",
+		"7de504e8-2166-7079-ebbb-f0fa4cfc6f1d"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1630135402749,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "13655146-2a6b-4637-5e5b-62e152570b1e",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTk1NH0.-3A99rIVCztuMQpNmFK_CHUKKKpic4BQxUXjHRsjWUB1-eMcMApVTNi9GBiXpFfXrM2uan36hQM7bIfOxy3GJg\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTk1NH0.-3A99rIVCztuMQpNmFK_CHUKKKpic4BQxUXjHRsjWUB1-eMcMApVTNi9GBiXpFfXrM2uan36hQM7bIfOxy3GJg",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/categories/2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630139069867,
+			"name": "Edit Category",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": [],
+			"rawModeData": "{\n  \"code\": \"lp\",\n  \"comment\": \"This category is for laptop.\",\n  \"name\": \"Laptop\",\n  \"parentId\": 1\n}"
+		},
+		{
+			"id": "2683fddf-74c5-b7a0-f712-80999847a212",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTM0M30.JjNoGb4__CvBuszfuJ3a3IeO6Se8-VVuZcS9_pl8gNPbkCBoiZVOS8HRvMpJIwprfHWXo5rDt6C1Ub-prxjRbQ\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTM0M30.JjNoGb4__CvBuszfuJ3a3IeO6Se8-VVuZcS9_pl8gNPbkCBoiZVOS8HRvMpJIwprfHWXo5rDt6C1Ub-prxjRbQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630138264481,
+			"name": "Get Users List",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": []
+		},
+		{
+			"id": "3154f929-c7bc-41ca-4435-70d391ed002e",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTUzNH0.BscZzK2_aEftVej5noIKaeMSAdUZGgW7fjVGE0NSysGbC7MKFsG60szXj_NwO5_mQpm2ghCiJ1k94dAvxiGZ4g\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTUzNH0.BscZzK2_aEftVej5noIKaeMSAdUZGgW7fjVGE0NSysGbC7MKFsG60szXj_NwO5_mQpm2ghCiJ1k94dAvxiGZ4g",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/user-product-rates/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630138672550,
+			"name": "Edit User FeedBack For Product",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": [],
+			"rawModeData": "{\n  \"email\": \"morteza@test.com\",\n  \"firstName\": \"morteza\",\n  \"lastName\": \"eslami\",\n  \"userName\": \"morteza\",\n  \"password\": \"123456\"\n}"
+		},
+		{
+			"id": "39f82222-9c12-17f3-180f-e890f22b5701",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTYzMDE3OTY1NX0._YJkiCzBWVl6v-CcofsYd6-PoPFzFS_sGAA7WECKofVBnz6ft3puu0sHe_dV7Hzsa41rf5UakhUUBThZI5BcaQ\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTYzMDE3OTY1NX0._YJkiCzBWVl6v-CcofsYd6-PoPFzFS_sGAA7WECKofVBnz6ft3puu0sHe_dV7Hzsa41rf5UakhUUBThZI5BcaQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/categories/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630138939719,
+			"name": "Get Category By Id",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": []
+		},
+		{
+			"id": "3ab5de04-2db9-e0a2-4905-7eef0396d4a7",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTM0M30.JjNoGb4__CvBuszfuJ3a3IeO6Se8-VVuZcS9_pl8gNPbkCBoiZVOS8HRvMpJIwprfHWXo5rDt6C1Ub-prxjRbQ\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTM0M30.JjNoGb4__CvBuszfuJ3a3IeO6Se8-VVuZcS9_pl8gNPbkCBoiZVOS8HRvMpJIwprfHWXo5rDt6C1Ub-prxjRbQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/users/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630138258495,
+			"name": "Get User By Id",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": []
+		},
+		{
+			"id": "43aae8c8-3b1d-5f0b-56e7-9af06d320a35",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTYzMDE3OTY1NX0._YJkiCzBWVl6v-CcofsYd6-PoPFzFS_sGAA7WECKofVBnz6ft3puu0sHe_dV7Hzsa41rf5UakhUUBThZI5BcaQ\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTYzMDE3OTY1NX0._YJkiCzBWVl6v-CcofsYd6-PoPFzFS_sGAA7WECKofVBnz6ft3puu0sHe_dV7Hzsa41rf5UakhUUBThZI5BcaQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/products/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630138910540,
+			"name": "Get Product By Id",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": []
+		},
+		{
+			"id": "45ba7fad-bbf8-3663-b5da-6014eeeb1320",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTM0M30.JjNoGb4__CvBuszfuJ3a3IeO6Se8-VVuZcS9_pl8gNPbkCBoiZVOS8HRvMpJIwprfHWXo5rDt6C1Ub-prxjRbQ\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTM0M30.JjNoGb4__CvBuszfuJ3a3IeO6Se8-VVuZcS9_pl8gNPbkCBoiZVOS8HRvMpJIwprfHWXo5rDt6C1Ub-prxjRbQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/categories",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630138947876,
+			"name": "Get Category List ",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": []
+		},
+		{
+			"id": "4fc605be-5494-88aa-a306-3e5aa34b35c1",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTk1NH0.-3A99rIVCztuMQpNmFK_CHUKKKpic4BQxUXjHRsjWUB1-eMcMApVTNi9GBiXpFfXrM2uan36hQM7bIfOxy3GJg\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTk1NH0.-3A99rIVCztuMQpNmFK_CHUKKKpic4BQxUXjHRsjWUB1-eMcMApVTNi9GBiXpFfXrM2uan36hQM7bIfOxy3GJg",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/products/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630139249462,
+			"name": "Delete Product By Id",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": []
+		},
+		{
+			"id": "5aa6ea7a-6960-c8fe-c68e-f7eb26aa0ee2",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTk1NH0.-3A99rIVCztuMQpNmFK_CHUKKKpic4BQxUXjHRsjWUB1-eMcMApVTNi9GBiXpFfXrM2uan36hQM7bIfOxy3GJg\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTk1NH0.-3A99rIVCztuMQpNmFK_CHUKKKpic4BQxUXjHRsjWUB1-eMcMApVTNi9GBiXpFfXrM2uan36hQM7bIfOxy3GJg",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/categories",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630139009310,
+			"name": "Create Category",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": [],
+			"rawModeData": "{\n  \"code\": \"lp\",\n  \"comment\": \"This category is for laptop\",\n  \"name\": \"Laptop\",\n  \"parentId\": 1\n}"
+		},
+		{
+			"id": "689b3dba-0719-0f36-d71d-c33502b798e3",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTYzMDE3OTY1NX0._YJkiCzBWVl6v-CcofsYd6-PoPFzFS_sGAA7WECKofVBnz6ft3puu0sHe_dV7Hzsa41rf5UakhUUBThZI5BcaQ\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTYzMDE3OTY1NX0._YJkiCzBWVl6v-CcofsYd6-PoPFzFS_sGAA7WECKofVBnz6ft3puu0sHe_dV7Hzsa41rf5UakhUUBThZI5BcaQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/user-product-rates",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630138623911,
+			"name": "Get User Product Rate List ",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": []
+		},
+		{
+			"id": "693088f2-118c-e4cc-f421-3d3428af7e59",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTYzMDE3OTY1NX0._YJkiCzBWVl6v-CcofsYd6-PoPFzFS_sGAA7WECKofVBnz6ft3puu0sHe_dV7Hzsa41rf5UakhUUBThZI5BcaQ\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTYzMDE3OTY1NX0._YJkiCzBWVl6v-CcofsYd6-PoPFzFS_sGAA7WECKofVBnz6ft3puu0sHe_dV7Hzsa41rf5UakhUUBThZI5BcaQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/user-product-rates/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630138596640,
+			"name": "Get User Product Rate By Id",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": []
+		},
+		{
+			"id": "78b6765b-8289-c501-82a2-63172e2f0d39",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTUzNH0.BscZzK2_aEftVej5noIKaeMSAdUZGgW7fjVGE0NSysGbC7MKFsG60szXj_NwO5_mQpm2ghCiJ1k94dAvxiGZ4g\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTUzNH0.BscZzK2_aEftVej5noIKaeMSAdUZGgW7fjVGE0NSysGbC7MKFsG60szXj_NwO5_mQpm2ghCiJ1k94dAvxiGZ4g",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/user-product-rates",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630139290000,
+			"name": "User Feedback For Product",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": [],
+			"rawModeData": "{\n  \"comment\": \"Perfect laptop !\",\n  \"productId\": 1,\n  \"rate\": 5\n}"
+		},
+		{
+			"id": "7de504e8-2166-7079-ebbb-f0fa4cfc6f1d",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTYzMDE3OTY1NX0._YJkiCzBWVl6v-CcofsYd6-PoPFzFS_sGAA7WECKofVBnz6ft3puu0sHe_dV7Hzsa41rf5UakhUUBThZI5BcaQ\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTYzMDE3OTY1NX0._YJkiCzBWVl6v-CcofsYd6-PoPFzFS_sGAA7WECKofVBnz6ft3puu0sHe_dV7Hzsa41rf5UakhUUBThZI5BcaQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/user-product-rates/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630138684961,
+			"name": "Delete User Product By Id ( ADMIN )",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": []
+		},
+		{
+			"id": "7f932d50-56e5-b29b-cebf-8d1ad67de283",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTYzMDE3OTY1NX0._YJkiCzBWVl6v-CcofsYd6-PoPFzFS_sGAA7WECKofVBnz6ft3puu0sHe_dV7Hzsa41rf5UakhUUBThZI5BcaQ\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTYzMDE3OTY1NX0._YJkiCzBWVl6v-CcofsYd6-PoPFzFS_sGAA7WECKofVBnz6ft3puu0sHe_dV7Hzsa41rf5UakhUUBThZI5BcaQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/products",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630138513767,
+			"name": "Get Product List",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": []
+		},
+		{
+			"id": "84506efb-1ada-c90f-6404-93fa2f5b14ed",
+			"headers": "Content-Type: application/merge-patch+json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630136271450,
+			"name": "User Sign up",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": [],
+			"rawModeData": "{\n  \"email\": \"morteza@test.com\",\n  \"firstName\": \"morteza\",\n  \"lastName\": \"eslami\",\n  \"userName\": \"morteza\",\n  \"password\": \"123456\"\n}"
+		},
+		{
+			"id": "87505602-f202-d607-2783-6bc26e3e7a17",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTk1NH0.-3A99rIVCztuMQpNmFK_CHUKKKpic4BQxUXjHRsjWUB1-eMcMApVTNi9GBiXpFfXrM2uan36hQM7bIfOxy3GJg\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTk1NH0.-3A99rIVCztuMQpNmFK_CHUKKKpic4BQxUXjHRsjWUB1-eMcMApVTNi9GBiXpFfXrM2uan36hQM7bIfOxy3GJg",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/categories/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630139107552,
+			"name": "Delete Category By Id",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": []
+		},
+		{
+			"id": "89a6bd75-dd96-c2b6-0a3a-39c5bbc9e034",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTk1NH0.-3A99rIVCztuMQpNmFK_CHUKKKpic4BQxUXjHRsjWUB1-eMcMApVTNi9GBiXpFfXrM2uan36hQM7bIfOxy3GJg\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTk1NH0.-3A99rIVCztuMQpNmFK_CHUKKKpic4BQxUXjHRsjWUB1-eMcMApVTNi9GBiXpFfXrM2uan36hQM7bIfOxy3GJg",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/products/filter",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630139540110,
+			"name": "Search Product(by name, price , rate)",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": [],
+			"rawModeData": "{\n  \"fromPrice\": 0,\n  \"toPrice\": 2000,\n  \"fromRate\": 3,\n  \"name\": \"l\",\n    \"toRate\": 5\n}"
+		},
+		{
+			"id": "a8c63461-c765-acd6-6c53-4871777cca0b",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTk1NH0.-3A99rIVCztuMQpNmFK_CHUKKKpic4BQxUXjHRsjWUB1-eMcMApVTNi9GBiXpFfXrM2uan36hQM7bIfOxy3GJg\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTk1NH0.-3A99rIVCztuMQpNmFK_CHUKKKpic4BQxUXjHRsjWUB1-eMcMApVTNi9GBiXpFfXrM2uan36hQM7bIfOxy3GJg",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/products/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630139222921,
+			"name": "Edit Product",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": [],
+			"rawModeData": "{\n  \"categoryId\": 1,\n  \"code\": \"lnv\",\n  \"comment\": \"This product is loptop\",\n  \"name\": \"lenovo\",\n  \"price\": 1100\n}"
+		},
+		{
+			"id": "b7e8705f-fde2-eb30-dbda-8b449284b464",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE3OTkwNX0.LwaffjDFZ523B92g1xpYFePKRkf-JjNzwMuZjEVDEgvqMaTYfv3O37BL0Vf5dSPIb3Z0-2DN_NtnrLyLsRiBFQ\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE3OTkwNX0.LwaffjDFZ523B92g1xpYFePKRkf-JjNzwMuZjEVDEgvqMaTYfv3O37BL0Vf5dSPIb3Z0-2DN_NtnrLyLsRiBFQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/users/block/2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PATCH",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Block or Unblock User",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1630136759724,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n  \"activated\": false\n}"
+		},
+		{
+			"id": "c2988284-7acc-fd92-e448-3b61a6cda2d7",
+			"headers": "Content-Type: application/merge-patch+json\nauthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTk1NH0.-3A99rIVCztuMQpNmFK_CHUKKKpic4BQxUXjHRsjWUB1-eMcMApVTNi9GBiXpFfXrM2uan36hQM7bIfOxy3GJg\nAccept: */*\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/merge-patch+json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYzMDE4MTk1NH0.-3A99rIVCztuMQpNmFK_CHUKKKpic4BQxUXjHRsjWUB1-eMcMApVTNi9GBiXpFfXrM2uan36hQM7bIfOxy3GJg",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "*/*",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/products",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630139165914,
+			"name": "Create Product",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": [],
+			"rawModeData": "{\n  \"categoryId\": 1,\n  \"code\": \"lnv\",\n  \"comment\": \"This product is loptop\",\n  \"name\": \"lenovo\",\n  \"price\": 1000\n}"
+		},
+		{
+			"id": "fbfe7cbb-16aa-6cc2-a46f-c7f533945b5d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/users/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630138751799,
+			"name": "User login",
+			"description": "",
+			"collectionId": "efef88c2-45c5-d91b-c536-b5019049d616",
+			"responses": [],
+			"rawModeData": "{\n  \"username\": \"admin\",\n  \"password\": \"admin\"\n}"
+		}
+	]
+}
