@@ -13,6 +13,7 @@
 
 ### more
 
+* The application is deployed on heroku.com and its swagger address is https://me-shopping.herokuapp.com/shopping/swagger-ui/
 * This project uses JWT to manage security tokens.
 * Liquibase is used to manage the database schema, and the project's database is MySQL.
 * A series of tables(Product, Category) that have sensitive data will be logged using Hibernate-envers.
